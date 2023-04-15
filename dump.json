@@ -1,0 +1,105 @@
+{
+    "addys": {
+        "JmpEsi": {
+            "address": 275822,
+            "address_hex": "0x4356E"
+        },
+        "RobloxModule": {
+            "address": 2228224,
+            "address_hex": "0x220000"
+        },
+        "TaskSchedulerSingleton": {
+            "address": 65243872,
+            "address_hex": "0x3E38AE0"
+        },
+        "inline_luau_load": {
+            "address": 3452367,
+            "address_hex": "0x34ADCF"
+        },
+        "luavm_load_bytecode_hook": {
+            "address": 3464737,
+            "address_hex": "0x34DE21"
+        },
+        "luavm_load_hashcheck_hook": {
+            "address": 3464693,
+            "address_hex": "0x34DDF5"
+        },
+        "nilObject": {
+            "address": 39141040,
+            "address_hex": "0x2553EB0"
+        }
+    },
+    "cputime": "462 ms",
+    "errors": [],
+    "offsets": {
+        "L_BASE": 28,
+        "L_GLOBAL": 8,
+        "L_GT": 64,
+        "L_TOP": 20,
+        "SC_SCRIPTSTATE": 244,
+        "luavm_load_stackframe_bytecode": 356,
+        "luavm_load_stackframe_bytecode_len": 108
+    },
+    "ptrobf": {
+        "L_GLOBAL": "XOR",
+        "SC_SCRIPTSTATE": "XOR"
+    },
+    "subs": {
+        "GetScriptState": {
+            "address": 3744560,
+            "address_hex": "0x392330"
+        },
+        "GetState": {
+            "address": 3744656,
+            "address_hex": "0x392390"
+        },
+        "GetTaskScheduler": {
+            "address": 7497792,
+            "address_hex": "0x726840"
+        },
+        "LuaTypeName": {
+            "address": 22002912,
+            "address_hex": "0x14FBCE0"
+        },
+        "LuaVM::Load": {
+            "address": 3451824,
+            "address_hex": "0x34ABB0"
+        },
+        "Printf": {
+            "address": 13507584,
+            "address_hex": "0xCE1C00"
+        },
+        "ScriptContextResume": {
+            "address": 4004544,
+            "address_hex": "0x3D1AC0"
+        },
+        "TaskDefer": {
+            "address": 4002928,
+            "address_hex": "0x3D1470"
+        },
+        "luaopen_base": {
+            "address": 22124448,
+            "address_hex": "0x15197A0"
+        },
+        "os_date": {
+            "address": 22288064,
+            "address_hex": "0x15416C0"
+        },
+        "pseudo2addr": {
+            "address": 21999824,
+            "address_hex": "0x14FB0D0"
+        }
+    },
+    "types": {
+        "LUA_TBOOLEAN": 1,
+        "LUA_TFUNCTION": 9,
+        "LUA_TNIL": 0,
+        "LUA_TNUMBER": 2,
+        "LUA_TSTRING": 5,
+        "LUA_TTABLE": 8,
+        "LUA_TTHREAD": 6,
+        "LUA_TUSERDATA": 7,
+        "LUA_TVECTOR": 3
+    },
+    "version": "version-9898fbc5d6bc4b1e"
+}
